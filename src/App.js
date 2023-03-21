@@ -1,10 +1,12 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Formulario from './formularios/formulario';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Routes>
+      <Route path='/form' element={<Formulario titulo="Titulo" />} />
+    </Routes>
   );
 }
 

@@ -10,10 +10,15 @@
 
 .campo{
     display: grid;
+    height: 45px;
     align-items: start;
-    margin-bottom: 3px;
-    grid-template-columns: 35% 65%;
+    margin-bottom: 10px;
+    grid-template-columns: 100px 50%;
     color: var(--negro);
+}
+
+.large{
+    grid-template-columns: 100px auto;
 }
 
 .campo>input{
@@ -24,5 +29,14 @@
     box-sizing: border-box;
     color: var(--blanco);
     background-color: var(--azul);
-    border-radius: 0px 5px 0px 5px;
+    border-radius: 0px 10px 0px 12px;
+}
+
+.container-xl>.row{
+    margin: 0px 0px 10px;
+    /*border-bottom: 1px solid var(--gris-oscuro);*/
+}
+
+.container-xl>.row.no-margin{
+    margin: 0;
 }

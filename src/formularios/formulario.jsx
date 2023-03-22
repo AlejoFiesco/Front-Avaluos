@@ -43,6 +43,76 @@ const Formulario = () => {
               </Row>
             </Col>
           </Row>
+
+
+          <Row>
+            <Col md={9}>
+              <Row>
+                <div className="campo large">
+                  Dirigido a
+                  <Field />
+                </div>
+              </Row>
+              <Row>
+                <Col>
+                  <div className="campo">
+                    Tipo identificación
+                    <Field />
+                  </div>
+                </Col>
+                <Col>
+                  <div className="campo">
+                    Documento
+                    <Field />
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <div className="campo large">
+                  Proceso
+                  <Field />
+                </div>
+              </Row>
+            </Col>
+          </Row>
+
+
+          <Row className='no-margin'>
+            <Col md={6}>
+              <div className="campo large">
+                Solicitante
+                <Field />
+              </div>
+            </Col>
+            <Col md={3}>
+              <div className="campo">
+                Tipo de identificación
+                <Field />
+              </div>
+            </Col>
+            <Col md={3}>
+              <div className="campo">
+                Documento
+                <Field />
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={8}>
+              <div className="campo large">
+                Solicitante
+                <Field />
+              </div>
+            </Col>
+            <Col md={1}></Col>
+            <Col md={3}>
+              <div className="campo">
+                Telefono
+                <Field />
+              </div>
+            </Col>
+          </Row>
+
         </Container>
       </Formik>
     </div>
